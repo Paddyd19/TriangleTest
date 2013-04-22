@@ -1,0 +1,38 @@
+if(side1 == side2 && side2 == side3)
+
+Clause 1: side1 == side2
+TRUE  :	[2,2,2]
+FALSE : [2,3,2]
+
+Clause 2: side2 == side3
+TRUE  : [2,2,2]
+FALSE : [2,3,2]
+
+
+if (side1 == side2 || side2 == side3 || side3 == side1)
+
+Clause 1: side1 == side2
+TRUE  :	[2,2,1]
+FALSE : [1,2,3]
+
+Clause 2: side2 == side3
+TRUE  : [1,2,2]
+FALSE : [1,2,3]
+
+Clause 3: side3 == side1
+TRUE  : [2,1,2]
+FALSE : [1,2,3]
+
+if (side1 != side2 && side2 != side3 && side3 != side1)
+
+Clause 1: side1 != side2
+TRUE  :	[1,2,3]
+FALSE : [2,2,2]
+
+Clause 2: side2 != side3
+TRUE  : [1,2,3]
+FALSE : [2,2,2]
+
+Clause 3: side3 != side1
+TRUE  : [1,2,3]
+FALSE : [2,2,2]

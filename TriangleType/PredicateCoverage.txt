@@ -1,0 +1,11 @@
+1st if:
+TRUE :[2,2,2] 
+FALSE : [1,2,3]
+
+2nd if:
+TRUE : [2,1,2] 
+FALSE : [1,2,3]
+
+3rd if:
+TRUE : [1,2,3] 
+FALSE : [2,2,2]
